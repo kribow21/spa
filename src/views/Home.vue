@@ -1,15 +1,20 @@
 <template>
-  <Main/>
+  <div>
+  <Nav2/>
+  <MainBanner/>
+  </div>
 </template>
 
 <script>
-  import Main from '../components/Main'
+  import MainBanner from '../components/MainBanner.vue'
+  import Nav2 from '../components/Nav2.vue'
 
   export default {
     name: 'Home',
 
     components: {
-      Main,
+      Nav2,
+      MainBanner
     },
   }
 </script>
