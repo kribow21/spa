@@ -1,19 +1,19 @@
 <template>
   <div>
-  <Nav2/>
+  <Nav/>
   <MainBanner/>
   </div>
 </template>
 
 <script>
   import MainBanner from '../components/MainBanner.vue'
-  import Nav2 from '../components/Nav2.vue'
+  import Nav from '../components/Nav.vue'
 
   export default {
     name: 'Home',
 
     components: {
-      Nav2,
+      Nav,
       MainBanner
     },
   }
