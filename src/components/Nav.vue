@@ -60,9 +60,9 @@
 
 <style lang="scss" scoped>
 header{
-    background-color:rgba(0,0,0,0.8) ;
-    z-index: 99;
+    background-color:rgba(208, 233, 97, 0.8) ;
     width: 100%;
+    z-index: 99;
     position: fixed;
     color: white;
 
@@ -97,8 +97,8 @@ header{
     border-bottom: 1px solid transparent;
 
     &:hover {
-        color: blueviolet;
-        border-collapse: blueviolet;
+        color: grey;
+        border-collapse: grey;
     }
     }
     .branding{
@@ -140,8 +140,8 @@ header{
         max-width: 250px;
         height: 100%;
         background-color:white ;
-        top: 0;
-        left: 0;
+        top: 10.5vh;
+        right: 0;
 
         li{
             margin-left: 0;
@@ -156,7 +156,7 @@ header{
     }
     .mobile-nav-enter-from,
     .mobile-nav-leave-to{
-        transform: translateX(-250px);
+        transform: translateX(250px);
     }
     .mobile.nav-enter-to{
         transform: translateX(0);
