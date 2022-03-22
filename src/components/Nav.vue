@@ -10,8 +10,9 @@
                 <li><router-link class="link" :to="{ name : ''}">Location</router-link></li>
                 <li><router-link class="link" :to="{ name : ''}">Contact</router-link></li>
             </ul>
+            <!-- <v-btn href="tel:269-327-6772" id="callBtn" >CALL TODAY 269.327.6772</v-btn> -->
             <div class="icon">
-                <v-btn @click="toggleMobileNav" class="menu" v-show="mobile" :class="{'icon-active' : mobileNav}"><v-icon>mdi-menu</v-icon></v-btn>
+                <v-btn @click="toggleMobileNav" class="menu" v-show="mobile" :class="{'icon-active' : mobileNav}"><v-icon >mdi-menu</v-icon></v-btn>
             </div>
             <transition name="mobile-nav">
             <ul v-show="mobileNav" class="dropdown-nav">
@@ -77,7 +78,7 @@ header{
     @media(min-width: 1140px){
         max-width: 1140px;
     }
-    
+
     ul,
     .link {
     font-weight: 500;
@@ -106,7 +107,7 @@ header{
         align-items: center;
 
         img{
-            width: 300px;
+            width: 275px;
             transition: .5s ease all;
         }
     }
@@ -121,7 +122,7 @@ header{
     align-items: center;
     position: absolute;
     top: 0;
-    right: 24px;
+    right: 1px;
     height: 100%;
 
         .menu{

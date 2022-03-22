@@ -19,10 +19,10 @@
             align="center"
             justify="center"
             >
-                <div class="text-h2" id="banTitle">
+                <div class="text-h3 text-center" id="banTitle">
                     {{ item.title }}
                 </div>
-                <div class="text-h6" id="banText">
+                <div class="text-h6 text-center" id="banText">
                     {{ item.subText }}
                 </div>
             </v-row>
@@ -61,24 +61,32 @@
 </script>
 
 <style scoped>
-.banner{
-    display: flex;
-    align-items: center;
-    margin-top: 10.5vh;
-}
+/*Mobile media rules*/
 #banTitle{
     position: absolute;
-    margin-top: 80vh;
+    margin-top:70vh;
     color: white;
     text-shadow: 3px 3px grey;
 }
 #banText{
     position: absolute;
-    margin-top: 90vh;
+    margin-top: 95vh;
     color: white;
     text-shadow: 2px 2px grey;
 }
 .carousel{
     padding-top: 9.5vh;
+}
+/*Desktop media rules*/
+@media only screen and (min-width: 1025px) {
+#banTitle{
+    margin-top:80vh;
+}
+#banText{
+    margin-top:90vh;
+}
+.carousel{
+    padding-top: 9.4vh;
+}
 }
 </style>

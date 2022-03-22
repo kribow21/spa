@@ -2,10 +2,12 @@
   <div>
   <Nav/>
   <MainBanner/>
+  <IconBanner/>
   </div>
 </template>
 
 <script>
+import IconBanner from '../components/IconBanner.vue'
   import MainBanner from '../components/MainBanner.vue'
   import Nav from '../components/Nav.vue'
 
@@ -14,7 +16,8 @@
 
     components: {
       Nav,
-      MainBanner
+      MainBanner,
+      IconBanner
     },
   }
 </script>
