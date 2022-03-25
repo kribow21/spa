@@ -1,5 +1,5 @@
 <template>
-    <v-container fluid>
+    <v-container fluid id="container">
         <v-row>
             <v-col align="center">
                 <v-img
@@ -53,12 +53,16 @@
     }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+#container{
+    padding: 3vh 8vw 0;
+}
 /*Mobile media rules*/
 .icon{
     margin: 2vh;
     width: 24vw;
 }
+
 h3{
     color: grey;
     text-transform: uppercase;
@@ -73,6 +77,28 @@ h3{
 @media only screen and (min-width: 1025px) {
 .icon{
     max-width: 8vw;
+
+}
+@keyframes bounce {
+    0% ,100%{-webkit-transform: translateY(0);
+    transform: translateY(0);
+    }
+    50%{-webkit-transform: translateY(-10px);
+    transform :translateY(-10px);
+    }
+}
+h3{
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    transition-timing-function: linear;
+    animation-iteration-count: 1;
+
+}
+h3:hover{
+    color:rgba(208, 233, 97, 0.8) ;
+    cursor: pointer;
+    animation-name: bounce;
+
 }
 }
 </style>
