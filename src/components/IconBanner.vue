@@ -55,7 +55,7 @@
 
 <style lang="scss" scoped>
 #container{
-    padding: 3vh 8vw 0;
+    padding: 2vh 8vw 2vh 8vw;
 }
 /*Mobile media rules*/
 .icon{
