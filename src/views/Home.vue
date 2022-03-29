@@ -3,6 +3,8 @@
   <Nav/>
   <MainBanner/>
   <IconBanner/>
+  <Promotions/>
+  <Welcome/>
   </div>
 </template>
 
@@ -10,6 +12,8 @@
 import IconBanner from '../components/IconBanner.vue'
   import MainBanner from '../components/MainBanner.vue'
   import Nav from '../components/Nav.vue'
+import Promotions from '../components/Promotions.vue'
+import Welcome from '../components/Welcome.vue'
 
   export default {
     name: 'Home',
@@ -17,7 +21,9 @@ import IconBanner from '../components/IconBanner.vue'
     components: {
       Nav,
       MainBanner,
-      IconBanner
+      IconBanner,
+      Promotions,
+      Welcome
     },
   }
 </script>
