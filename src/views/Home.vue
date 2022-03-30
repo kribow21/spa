@@ -5,10 +5,12 @@
   <IconBanner/>
   <Promotions/>
   <Welcome/>
+  <Announcements/>
   </div>
 </template>
 
 <script>
+import Announcements from '../components/Announcements.vue'
 import IconBanner from '../components/IconBanner.vue'
   import MainBanner from '../components/MainBanner.vue'
   import Nav from '../components/Nav.vue'
@@ -23,7 +25,8 @@ import Welcome from '../components/Welcome.vue'
       MainBanner,
       IconBanner,
       Promotions,
-      Welcome
+      Welcome,
+      Announcements
     },
   }
 </script>
