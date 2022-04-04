@@ -8,6 +8,7 @@
   <Announcements/>
   <Giftcard/>
   <Reviews/>
+  <Products/>
   </div>
 </template>
 
@@ -17,6 +18,7 @@ import Giftcard from '../components/Giftcard.vue'
 import IconBanner from '../components/IconBanner.vue'
   import MainBanner from '../components/MainBanner.vue'
   import Nav from '../components/Nav.vue'
+import Products from '../components/Products.vue'
 import Promotions from '../components/Promotions.vue'
 import Reviews from '../components/Reviews.vue'
 import Welcome from '../components/Welcome.vue'
@@ -32,7 +34,8 @@ import Welcome from '../components/Welcome.vue'
       Welcome,
       Announcements,
       Giftcard,
-      Reviews
+      Reviews,
+      Products
     },
   }
 </script>
