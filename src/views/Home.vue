@@ -7,6 +7,7 @@
   <Welcome/>
   <Announcements/>
   <Giftcard/>
+  <Reviews/>
   </div>
 </template>
 
@@ -17,6 +18,7 @@ import IconBanner from '../components/IconBanner.vue'
   import MainBanner from '../components/MainBanner.vue'
   import Nav from '../components/Nav.vue'
 import Promotions from '../components/Promotions.vue'
+import Reviews from '../components/Reviews.vue'
 import Welcome from '../components/Welcome.vue'
 
   export default {
@@ -29,7 +31,8 @@ import Welcome from '../components/Welcome.vue'
       Promotions,
       Welcome,
       Announcements,
-      Giftcard
+      Giftcard,
+      Reviews
     },
   }
 </script>

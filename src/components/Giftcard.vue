@@ -1,7 +1,7 @@
 <template>
     <div id="container">
         <div id="text">
-            <h1>Centre Spa Gift Card</h1>
+            <h1>CENTRE SPA GIFT CARD</h1>
             <h3>Give the gift of relaxation with a gift card to Centre Spa!</h3>
         </div>
         <v-btn id="btn">Purchase Now</v-btn>
