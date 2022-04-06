@@ -72,6 +72,7 @@ main{
 }
 h1{
     display: block;
+    text-align: center;
     color: rgb(101, 192, 187);
 }
 p{
