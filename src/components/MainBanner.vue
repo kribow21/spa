@@ -1,7 +1,7 @@
 <template>
     <v-carousel
     cycle
-    height="600"
+    height="740"
     hide-delimiters
     :show-arrows="false"
     class="carousel"
@@ -86,7 +86,7 @@
     margin-top:90vh;
 }
 .carousel{
-    padding-top: 9.4vh;
+    padding-top: 8.7vh;
 }
 }
 </style>
