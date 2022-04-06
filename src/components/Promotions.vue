@@ -2,7 +2,7 @@
     <div>
         <v-carousel
         cycle
-        height="360"
+        id="carousel"
         hide-delimiter-background
         :show-arrows="false"
     >
@@ -12,8 +12,8 @@
                 <v-row justify="center">
                     <v-col cols="6">
                         <v-img
-                        src="https://www.centrespa.com/wp-content/uploads/Depositphotos_25639505_s_720x465_acf_cropped.jpg"
-                        width="600">
+                        class="img"
+                        src="https://www.centrespa.com/wp-content/uploads/Depositphotos_25639505_s_720x465_acf_cropped.jpg">
                         </v-img>
                     </v-col>
                     <v-col cols="6">
@@ -33,8 +33,8 @@
                 <v-row>
                     <v-col cols="6">
                         <v-img
-                        src="https://www.centrespa.com/wp-content/uploads/bridal-packages-min_720x465_acf_cropped.jpg"
-                        width="600">
+                        class="img"
+                        src="https://www.centrespa.com/wp-content/uploads/bridal-packages-min_720x465_acf_cropped.jpg">
                         </v-img>
                     </v-col>
                     <v-col cols="6">
@@ -63,8 +63,35 @@
 </script>
 
 <style scoped>
+/*Mobile media rules*/
+#carousel{
+    height: 380px;
+}
 .slide{
     background-color: rgb(101, 192, 187);
     color: white;
+    font-size: .8em;
+}
+h1{
+    font-size: 1.4em;
+}
+.img{
+    height: 100%;
+    padding: 15px;
+}
+/*Tablet media rules*/
+@media only screen and (min-width: 600px) {
+    .slide{
+        font-size: .8em;
+    }
+    h1{
+        font-size: 1.6rem;
+    }
+}
+/*Desktop media rules*/
+@media only screen and (min-width: 1025px) {
+        .slide{
+        font-size: 1em;
+    }
 }
 </style>
