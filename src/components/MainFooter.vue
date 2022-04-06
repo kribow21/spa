@@ -62,6 +62,9 @@
                 </v-icon>
             </v-btn>
         </section>
+        <v-card-text class="py-2 white--text text-center">
+            {{ new Date().getFullYear() }} — <strong>Centre Spa & Wellness All Rights Reserved</strong>
+        </v-card-text>    
     </footer>
 </template>
 
