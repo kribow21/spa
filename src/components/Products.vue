@@ -101,5 +101,14 @@ img{
     img{
         width: 20vw;
     }
+    .product{
+        overflow: visible;
+    }
+    img{
+        transition: transform .5 ease;
+    }
+    img:hover{
+        transform: scale(1.1);
+    }
 }
 </style>
