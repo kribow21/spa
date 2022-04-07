@@ -45,7 +45,7 @@
                 <li>Sun: Closed</li>
             </ul>
         </section>
-        <section>
+        <section id="contact">
             <img src="https://www.centrespa.com/wp-content/themes/bfm-child/img/logo-min.png" alt="spa"/>
             <h3>2276 East Centre Avenue</h3>
             <h3>Portage, MI 49002</h3>
@@ -110,7 +110,15 @@ img{
 @media only screen and (min-width: 1025px) {
     .container{
         min-width: 100%;
+        justify-content: center;
     }
+    h2,ul{
+        padding-left: 5vw;
+    }
+    #contact{
+        padding-left: 5vw;
+    }
+
 }
 
 </style>
