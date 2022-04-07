@@ -63,26 +63,35 @@
 /*Mobile media rules*/
 #banTitle{
     position: absolute;
-    margin-top:70vh;
+    margin-top:50vh;
     color: white;
     text-shadow: 3px 3px grey;
 }
 #banText{
     position: absolute;
-    margin-top: 95vh;
+    margin-top: 75vh;
     color: white;
     text-shadow: 2px 2px grey;
 }
 .carousel{
     padding-top: 9.5vh;
 }
+/*Tablet media rules*/
+@media only screen and (min-width: 600px) {
+    #banTitle{
+        margin-top:70vh;
+    }
+    #banText{
+        margin-top:85vh;
+    }
+}
 /*Desktop media rules*/
 @media only screen and (min-width: 1025px) {
 #banTitle{
-    margin-top:80vh;
+    margin-top:65vh;
 }
 #banText{
-    margin-top:90vh;
+    margin-top:75vh;
 }
 .carousel{
     padding-top: 8.7vh;
