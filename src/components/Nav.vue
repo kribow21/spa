@@ -7,7 +7,8 @@
             <ul v-show="!mobile" class="navigation">
                 <li><router-link class="link" :to="{ name : 'Home'}">Home</router-link></li>
                 <li><router-link class="link" :to="{ name : ''}">About</router-link></li>
-                <li><router-link class="link" :to="{ name : ''}">Location</router-link></li>
+                <li><router-link class="link" :to="{ name : ''}">Services</router-link></li>
+                <li><router-link class="link" :to="{ name : ''}">Products</router-link></li>
                 <li><router-link class="link" :to="{ name : ''}">Contact</router-link></li>
             </ul>
             <!-- <v-btn href="tel:269-327-6772" id="callBtn" >CALL TODAY 269.327.6772</v-btn> -->
@@ -18,7 +19,8 @@
             <ul v-show="mobileNav" class="dropdown-nav">
                 <li><router-link class="link" :to="{ name : 'Home'}">Home</router-link></li>
                 <li><router-link class="link" :to="{ name : ''}">About</router-link></li>
-                <li><router-link class="link" :to="{ name : ''}">Location</router-link></li>
+                <li><router-link class="link" :to="{ name : ''}">Services</router-link></li>
+                <li><router-link class="link" :to="{ name : ''}">Products</router-link></li>
                 <li><router-link class="link" :to="{ name : ''}">Contact</router-link></li>
             </ul>
             </transition>
@@ -92,10 +94,9 @@ header{
     margin-left: 16px;
     }
     .link{
-    font-size: 14px;
+    font-size: 15px;
     transition: .5s ease all;
     padding-bottom: 4px;
-    border-bottom: 1px solid transparent;
 
     &:hover {
         color: grey;
@@ -147,7 +148,7 @@ header{
         li{
             margin-left: 0;
             .link{
-                color: black;
+                color: grey;
             }
         }
     }
