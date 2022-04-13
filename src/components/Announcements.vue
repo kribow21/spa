@@ -3,7 +3,7 @@
         <h3 id="subTitle">LATEST</h3>
         <h1 id="title">ANNOUNCEMENTS</h1>
         <p>Our website has been completely redone! We hope you find it attractive, user-friendly, and informational.</p>
-        <p>Come join our team! We are looking for a Spa Coordinator and a Licensed Massage Therapist</p>
+        <p>Come join our team! We are looking for a Spa Coordinator and a Licensed Massage Therapist!</p>
         <hr>
     </div>
 </template>

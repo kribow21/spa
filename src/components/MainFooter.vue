@@ -50,7 +50,7 @@
             <h3>2276 East Centre Avenue</h3>
             <h3>Portage, MI 49002</h3>
             <h3>269.327.6772</h3>
-            <v-btn>CONTACT US</v-btn>
+            <v-btn @click="contactUs">CONTACT US</v-btn>
             <v-btn
                 href="https://www.facebook.com/CentreSpaAndWellness/?ref=br_rs"
                 target="_blank"
@@ -70,7 +70,12 @@
 
 <script>
     export default {
-        name : "MainFooter"
+        name : "MainFooter",
+        methods: {
+            contactUs() {
+                alert("Would send you to contact page")
+            }
+        },
     }
 </script>
 

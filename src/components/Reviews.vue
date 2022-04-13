@@ -13,7 +13,7 @@
         </div>
         <v-container>
             <v-row justify="center">
-                <v-btn id="btn">SEE ALL REVIEWS</v-btn>
+                <v-btn id="btn" @click="reviews">SEE ALL REVIEWS</v-btn>
             </v-row>
         </v-container>
     </div>
@@ -21,7 +21,12 @@
 
 <script>
     export default {
-        name : "Reviews"
+        name : "Reviews",
+        methods: {
+            reviews() {
+                alert("Would send you to about page")
+            }
+        },
     }
 </script>
 

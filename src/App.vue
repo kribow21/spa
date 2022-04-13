@@ -1,5 +1,8 @@
 <template>
   <v-app>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap" rel="stylesheet">
     <v-main>
       <router-view/>
     </v-main>
@@ -16,3 +19,8 @@ export default {
   }),
 };
 </script>
+<style>
+*{
+font-family: 'Red Hat Display', sans-serif;
+}
+</style>

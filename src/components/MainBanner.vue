@@ -18,12 +18,12 @@
             align="center"
             justify="center"
             >
-                <div class="text-h3 text-center" id="banTitle">
+                <h1 class="text-center" id="banTitle">
                     {{ item.title }}
-                </div>
-                <div class="text-h6 text-center" id="banText">
+                </h1>
+                <h3 class="text-center" id="banText">
                     {{ item.subText }}
-                </div>
+                </h3>
             </v-row>
         </v-sheet>
         </v-carousel-item>
@@ -39,17 +39,17 @@
             {
                 src:"https://www.centrespa.com/wp-content/uploads/centre-spa-wellness-banner1-min_1920x812_acf_cropped.jpg",
                 title:"Find Your Centre with Massage Threapy",
-                subText: "Massage Threapy is an excellent way to improve your overall health and wellness"
+                subText: "Massage Threapy is an excellent way to improve your overall health and wellness."
             },
             {
                 src:"https://www.centrespa.com/wp-content/uploads/centre-spa-wellness-banner2-min_1920x812_acf_cropped.jpg",
                 title:"Enjoy a Facial Treatment at Our Day Spa",
-                subText: "Improve the radience and smoothness of your skin with a facial treatment"
+                subText: "Improve the radience and smoothness of your skin with a facial treatment."
             },
             {
                 src:"https://www.centrespa.com/wp-content/uploads/centre-spa-wellness-salon-services-min.jpg",
                 title:"Enchance Your Look with Our Salon Services",
-                subText: "Wether you desire a cut,color,or stylying, our talented hair stylists have you covered"
+                subText: "Wether you desire a cut,color,or stylying, our talented hair stylists have you covered."
 
             },
         ],
@@ -89,6 +89,7 @@
 @media only screen and (min-width: 1025px) {
 #banTitle{
     margin-top:65vh;
+    font-size: 3rem;
 }
 #banText{
     margin-top:75vh;
