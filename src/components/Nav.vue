@@ -2,7 +2,7 @@
     <header>
         <nav>
             <div class="branding">
-                <img src="https://www.centrespa.com/wp-content/themes/bfm-child/img/logo-min.png" alt="spa"/>
+                <img src="https://www.centrespa.com/wp-content/themes/bfm-child/img/logo-min.png" alt="centre spa logo"/>
             </div>
             <ul v-show="!mobile" class="navigation">
                 <li><router-link class="link" :to="{ name : 'Home'}">Home</router-link></li>
@@ -11,7 +11,6 @@
                 <li><router-link class="link" :to="{ name : ''}">Products</router-link></li>
                 <li><router-link class="link" :to="{ name : ''}">Contact</router-link></li>
             </ul>
-            <!-- <v-btn href="tel:269-327-6772" id="callBtn" >CALL TODAY 269.327.6772</v-btn> -->
             <div class="icon">
                 <v-btn @click="toggleMobileNav" class="menu" v-show="mobile" :class="{'icon-active' : mobileNav}"><v-icon >mdi-menu</v-icon></v-btn>
             </div>
@@ -49,7 +48,7 @@
             },
             checkScreen(){
                 this.windowWidth = window.innerWidth;
-                if(this.windowWidth <= 750){
+                if(this.windowWidth <= 915){
                     this.mobile = true;
                     return
                 }
