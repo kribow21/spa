@@ -1,5 +1,7 @@
 # spa
 
+This a mock of https://www.centrespa.com/  all rights and design reserved to them
+
 ## Project setup
 ```
 npm install
